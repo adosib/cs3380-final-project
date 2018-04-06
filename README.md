@@ -2,6 +2,8 @@
 
 ## Team Members:
   * **Derek Rogers**
+  * **Sohaila Bakr**
+  * **Ado Sibalo**
   
 ## **Application Description**
   Description of application goes here  
