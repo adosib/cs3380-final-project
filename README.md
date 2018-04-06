@@ -1,9 +1,9 @@
 # cs3380-final-project
 
 ## Team Members:
-  * **Derek Rogers**
   * **Sohaila Bakr**
   * **Ado Sibalo**
+  * **Derek Rogers** 
   
 ## **Application Description**
   Description of application goes here  
