@@ -9,7 +9,16 @@
   Description of application goes here  
 
 ## **Database Schema**
-  Database schema goes here  
+  #### events
+  |Field|Type|Null?|Default|Key|
+  |---|---|---|---|---|
+  |id|INT|NOT NULL|None|Primary Key|
+  |title|VARCHAR(40)|NOT NULL|NewEvent|None|
+  |description|MEDIUMTEXT|NULL|None|None|
+  |weight|DOUBLE|NOT NULL|1|None|
+  |eventDate|DATETIME|NOT NULL|None|None|
+  |dateCreated|DATETIME|NOT NULL|NOW()|None|
+  
 
 ## **Entity Relationship Diagram (ERD)**
   ERD goes here  
