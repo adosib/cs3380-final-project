@@ -48,6 +48,8 @@ CREATE TABLE `going` (
   `eventID` int(11) NOT NULL,
   `message` mediumtext,
   PRIMARY KEY (`id`)
+  FOREIGN KEY (`eventID`) REFERENCES events(`id`)
+  FOREIGN KEY (`userID`) REFERENCES users(`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
@@ -79,6 +81,8 @@ CREATE TABLE `membership` (
   `dateJoined` datetime NOT NULL,
   `dateLeft` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
+  FOREIGN KEY (`groupID`) REFERENCES groups(`id`)
+  FOREIGN KEY (`userID`) REFERENCES users(`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
